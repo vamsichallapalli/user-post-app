@@ -1,0 +1,59 @@
+*{
+    box-sizing:border-box ;
+    margin:0px;
+    padding: 0px;
+}
+.background-container{
+    background-color:rgba(0, 0, 0, 0.365) ;
+    min-height: 100vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.post-container{
+    border:2px black;
+    border-style: solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    font-family:'Times New Roman', Times, serif
+    
+}
+.form-container{
+
+width: 320px;
+
+}
+.form-container input {
+    width:100%;
+    margin-bottom: 10px;
+    height:30px
+}
+.form-container select {
+    width:100%;
+    margin-bottom: 10px;
+    height:30px
+}
+.form-container textarea {
+    width:100%;
+    height:50px;
+    margin-bottom: 10px;
+
+}
+.save-button{
+    width: 320px;
+    background-color: aqua;
+}
+.save-button button{
+    width:100%;
+    height:25px;
+    background-color: skyblue;
+    border: none;
+}
